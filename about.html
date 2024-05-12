@@ -1,65 +1,54 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeceitfulDragon</title>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Rubik+Mono+One&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-
-<!-- Navbar -->
-<nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" style="display: none;">
-    <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="work.html">Work</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-    </ul>
-</nav>
+---
+layout: default
+title: DeceitfulDragon
+---
 
 <!-- About Section -->
 <main id="about" class="container vh-100 d-flex align-items-center">
-    <div class="row mx-auto w-100 align-items-center">
-        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+    <section class="row mx-auto w-100 align-items-center">
+        <section class="col-lg-5 col-md-6 mb-4 mb-md-0">
             <article class="text-white">
                 <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>
+                    I'm <span class="text-green"><b>DeceitfulDragon</b></span>, but you can also call me <span class="text-green"><b>Hunter</b></span>. I'm a Full Stack Web Developer with a knack for responsive websites using HTML/CSS/JS. I really enjoy diving into the back-end side of things where I can play around with data and bring websites to life. My design taste generally fits simple colors and clean, minimalist vibes.
+                </p>
+                <p>
+                    When I'm not coding for work, you'll find me playing around with my own projects. I love using C# in Unity to test out and create games. I've also messed around with Lua (& gLua + Luau) for other games. I'm really into 3D modelling, typically with Blender and Substance Painter to make some clean renders. I've taught myself Photoshop for making graphics or altering images, and Premiere Pro for stringing together my game clips with subtitles or adding fun edits.
+                </p>
+                <p>
+                    I'm not completely online though! I love the outdoors and taking trips around the country. Winter may be a tough time for many, but it's definitely my favorite season. There's something serene about nature taking a break while snow makes everything a glistening white. I'm super social and pretty outgoing, always down to swap ideas or just connect with others.
+                </p>
             </article>
-        </div>
-        <div class="col-lg-5 col-md-6 offset-lg-2">
-            <div class="skills-grid">
+        </section>
+        <section class="col-lg-5 col-md-6 offset-lg-2">
+            <article class="skills-grid">
+                <h2>My Toolset</h2>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item bg-dark text-white">JavaScript</li>
-                    <li class="list-group-item bg-dark text-white">HTML</li>
-                    <li class="list-group-item bg-dark text-white">CSS</li>
-                    <li class="list-group-item bg-dark text-white">Node.js</li>
-                    <li class="list-group-item bg-dark text-white">Bootstrap</li>
-                    <li class="list-group-item bg-dark text-white">Express</li>
-                    <li class="list-group-item bg-dark text-white">Jest</li>
-                    <li class="list-group-item bg-dark text-white">SQL</li>
-                    <li class="list-group-item bg-dark text-white">Postgres</li>
-                    <li class="list-group-item bg-dark text-white">Jekyll</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-html5-plain colored"></i> HTML</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-css3-plain colored"></i> CSS</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-jquery-plain colored"></i> jQuery</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-nodejs-plain colored"></i> Node.js</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-javascript-plain colored"></i> Anime.js</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-discordjs-plain colored"></i> Discord.js</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-express-original"></i> Express</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-jest-plain colored"></i> Jest</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-bootstrap-plain colored"></i> Bootstrap</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-sass-original"></i> SASS</li>
+                    <li class="list-group-item bg-dark text-white"> <i class="devicon-mysql-original colored"></i> MySQL</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-postgresql-plain colored"></i> Postgres</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-sequelize-plain colored"></i> Sequelize</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-jekyll-plain colored"></i> Jekyll</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-git-plain colored"></i> Git/Github</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-blender-original colored"></i> Blender</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-git-plain colored"></i> Substance Painter</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-unity-plain colored"></i> Unity</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-csharp-plain colored"></i> C#</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-photoshop-plain colored"></i> Photoshop</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-premierepro-plain colored"></i> Premiere Pro</li>
+                    <li class="list-group-item bg-dark text-white"><i class="devicon-insomnia-plain colored"></i> Insomnia</li>
+                </ul>                              
+            </article>
+        </section>
+    </section>
 </main>
-
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
-<script src="./assets/js/script.js"></script>
-</body>
-</html>
