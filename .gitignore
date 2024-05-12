@@ -1,25 +1,5 @@
-# Site-specific
-_site/
-.sass-cache/
-.jekyll-cache/
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
-
-# MacOS system files
-.DS_Store
-
-# Node modules if you're using any npm packages
-node_modules/
-
-# Personal data
-.env
-.env.*
-
-# Bundle specifics
-.bundle/
-vendor/bundle/
-Gemfile.lock
-
-# Ignore all logfiles and tempfiles.
-*.log
-*.tmp
-*.tmp.*
+vendor
