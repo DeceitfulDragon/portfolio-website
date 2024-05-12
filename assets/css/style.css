@@ -19,7 +19,7 @@ body, html {
 }
 
 .text-green {
-    color: var(--green-primary);
+    color: var(--green-primary) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
