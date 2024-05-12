@@ -49,6 +49,6 @@ $(document).ready(function () {
         opacity: [0, 1],
         delay: anime.stagger(100, {start: 1000}),
         easing: 'easeOutExpo',
-        duration: 800
+        duration: 500
     });
 });
