@@ -20,7 +20,7 @@ body, html {
 
 .navbar-dark .navbar-nav .nav-link {
     font-family: var(--secondary-font);
-    color: #fff;
+    color: #a8a8a8;
 }
 
 .nav-link.active,
