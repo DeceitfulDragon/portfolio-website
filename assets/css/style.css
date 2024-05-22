@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .skills-grid i {
-    margin-right: 8px; /* Space between icon and text for better readability */
+    margin-right: 8px;
 }
 
 /* == WORK PAGE =========================================================================================== */
@@ -226,16 +226,6 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.3s ease;
     margin-bottom: 20px;
     border: solid 2px #000000;
-}
-
-.project-card-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.project-card-link:hover {
-    text-decoration: none;
-    color: inherit;
 }
 
 .project-header {
@@ -296,6 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project-description {
+    font-size: 1.2rem;
     position: absolute;
     top: 0;
     left: 0;
@@ -308,10 +299,80 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     opacity: 0;
     transition: opacity 0.3s ease;
+    padding: 10px;
 }
 
 .project-card:hover .project-description {
     opacity: 1;
+}
+
+.modal-content {
+    background-color: #1b1b1b;
+    color: #d4edda;
+    max-width: 90%;
+}
+
+.modal-header {
+    border-bottom: 1px solid #28a745;
+}
+
+.modal-header .btn-close {
+    background: none;
+    border: none;
+    color: #d4edda;
+    font-size: 1.5rem;
+}
+
+.modal-body .modal-tools {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.modal-body .modal-tool-item {
+    background-color: #28a745;
+    color: #1b1b1b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.modal-description {
+    font-size: 1rem;
+    color: #d4edda;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 30px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #d4edda;
+    border-radius: 50%;
+}
+
+.learn-more-button {
+    background-color: #28a745;
+    color: #1b1b1b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 /* == CONTACT PAGE ======================================================================================== */
@@ -397,5 +458,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
     .skills-grid ul {
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+    .modal-dialog {
+        max-width: 100%;
+        margin: 10px;
     }
 }
